@@ -1,6 +1,6 @@
 {
   "name": "ideone-node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Encapsulation of ideone for node.js",
   "main": "index.js",
   "scripts": {

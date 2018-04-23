@@ -19,6 +19,7 @@ ins.support().then(support => console.log(support)) // Get suppor language array
 - setMode(id)  set the language where you need
 - run(source,input) set the source code which you run and the input data,return a Promise
 - support get the support languages, return a Promise
+
 #### node
 node > 8 because the package use async/await syntax
 
