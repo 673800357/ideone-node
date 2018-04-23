@@ -1,0 +1,26 @@
+{
+  "name": "ideone-node",
+  "version": "0.0.1",
+  "description": "Encapsulation of ideone for node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/673800357/ideone-node.git"
+  },
+  "keywords": [
+    "ideone"
+  ],
+  "author": "flytam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/673800357/ideone-node/issues"
+  },
+  "homepage": "https://github.com/673800357/ideone-node#readme",
+  "dependencies": {
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  }
+}
