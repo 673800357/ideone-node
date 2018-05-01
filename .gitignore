@@ -63,4 +63,4 @@ typings/
 
 # private
 
-./config.js
+config.js
