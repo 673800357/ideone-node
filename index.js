@@ -31,8 +31,12 @@ class Ideone {
         }
     }
     async run(sourceCode, input) {
+        if (!this.languageId){
+            throw new Error('LanguageId must be provided');
+            return;
+        }
         const submissionData = {
-            language: 112,
+            language: this.languageId,
             sourceCode,
             input
         };
